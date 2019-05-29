@@ -1,0 +1,60 @@
+#container{
+    width: 900px;
+    height: 630px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:  rgb(243, 241, 236);
+}
+#container .con1{
+    width: 180px;
+    height: 630px;
+    background-color: #e7dfd6;
+    float: left;
+    text-align: center;
+}
+#container ul li div{
+    background-color: #e7dfd6;
+    border: 1.2px solid #fff;
+}
+#container ul li .con1-1{
+    background-color: rgb(240, 184, 120);
+    border-bottom: 0px;
+    height: 60px;
+    padding-top: 35px;
+}
+#container ul li .con1-2{
+    height: 40px;
+    padding-top: 15px;
+}
+#div1{
+    display: block;
+}
+#div2{
+    display: none;
+}
+.con2{
+    width: 700px;
+    margin-left: 200px;
+    padding: 20px;
+}
+.con2 .con2-1{
+    margin: 20px 0 0 0;
+    display: inline;
+}
+.con2 .con2-1 .con2-1-1{
+    width: 380px;
+    float: left;
+    position: relative;
+    margin: 50px 0;
+}
+.con2 .con2-1 p{
+    height: 50px;
+    margin-top: 10px; 
+    padding-right: 40px;
+}
+.con2 .con2-1 .image{
+    width: 200px;
+    float: right;
+    margin: 40px 110px 10px 0;
+
+}

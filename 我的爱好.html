@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的爱好</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/我的爱好.css">
+    <script src="./js/我的爱好.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+</head>
+<body> 
+    <header class="wrapper" id="top">
+            <div class="inner">
+                <div id="top-1">
+                    <!--<img src="images/logo.png" alt="">-->
+                    <h1 class='titleWrapper'>
+                        <div id='primaryTitle' style='pointer-events:none;'>我的网站</div>
+                    </h1>
+                </div>
+                <ul id="top-2">
+                        <li class="nav-item"><a href="./index.html"><span>首页</span></a></li>
+                        <li class="nav-item"><a href="./我的爱好.html"><span>我的爱好</span></a></li>
+                        <li class="nav-item"><a href="./大学生活.html"><span>大学生活</span></a></li>
+                        <li class="nav-item"><a href="./所获奖励.html"><span>所获奖励</span></a></li>
+                    </ul>
+                <div id="top-3"></div>
+            </div>
+    </header>
+    <nav class="wrapper" id="naver">
+        <div class="inner">
+            <div class="nav1">
+                <img src="./images/斗罗.jpg" alt="" width="100%" height="100%" id="lunbotu">
+            </div>
+    </nav>
+    <div class="wrapper" id="container">
+        <div class="inner">
+            <div class="con1">
+                <video controls poster width="450px" height="400px" id="video_btn">
+                    <source src="./video/斗罗大陆.mp4">
+                    <source src="./video/斗罗大陆.webm">
+                    <p>Sorry,you browser doesn't support the video element</p>
+                </video>
+            </div>
+            <div class="con2">
+                <h2>斗罗大陆</h2>
+                <p>喜欢各类动漫与漫画，《斗罗大陆》是近期在追的动漫，斗罗大陆小说是唐家三少的作品，
+                    也是我非常喜欢的小说之一。《斗罗大陆》动漫忠于原著、制作精良
+                    ，每一个人物都很有特色，每一个画面都很完美，并且由萧敬腾演唱的主题曲也十分热血!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="container1">
+        <div class="inner">
+            <table>
+                <tr>
+                    <td>
+                        <div class="con3">
+                            <img src="./images/li.jpg" alt="" width="200px" height="150px">
+                        </div> 
+                    </td>
+                    <td>
+                        <div class="con3">
+                            <img src="./images/jiu.jpg" alt="" width="150px" height="200px">
+                        </div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="con4">
+                            <h3>戒烟 - 李荣浩|朱正廷|陈立农</h3>
+                            <div class="con5" id="btn1" onclick="audiocontrol1()">
+                                <audio poster id="audio_btn1">
+                                    <source src="./audio/李荣浩,朱正廷,陈立农 - 戒烟 (Live).mp3">
+                                    <p>Sorry,you browser doesn't support the audio element</p>
+                                </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="con4">
+                            <h3>玖月花儿与筝 - 琵琶语(纯音)</h3>
+                            <div class="con5" id="btn2" onclick="audiocontrol2()">
+                                <audio poster id="audio_btn2" >
+                                    <source src="./audio/玖月花儿与筝 - 琵琶语 古筝版.mp3">
+                                    <p>Sorry,you browser doesn't support the audio element</p>
+                                </audio>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="con3">
+                            <img src="./images/ban.jpg" alt="" width="150px" height="150px">
+                        </div> 
+                    </td>
+                    <td>
+                        <div class="con3">
+                            <img src="./images/zhang.jpg" alt="" width="150px" height="190px">
+                        </div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="con4">
+                            <h3>刘珂矣 - 半壶纱</h3>
+                            <div class="con5" id="btn3" onclick="audiocontrol3()">
+                                <audio poster id="audio_btn3">
+                                    <source src="./audio/刘珂矣 - 半壶纱.mp3">
+                                    <p>Sorry,you browser doesn't support the audio element</p>
+                                </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="con4">
+                            <h3>张杰 - 夜空中最亮的星</h3>
+                            <div class="con5" id="btn4" onclick="audiocontrol4()">
+                                <audio poster id="audio_btn4" >
+                                    <source src="./audio/张杰 - 夜空中最亮的星.mp3">
+                                    <p>Sorry,you browser doesn't support the audio element</p>
+                                </audio>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="con3">
+                            <img src="./images/yan.jpg" alt="" width="150px" height="150px">
+                        </div> 
+                    </td>
+                    <td>
+                        <div class="con3">
+                            <img src="./images/liu.jpg" alt="" width="150px" height="170px">
+                        </div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="con4">
+                            <h3>严艺丹 - 等你的季节</h3>
+                            <div class="con5" id="btn5" onclick="audiocontrol5()">
+                                <audio poster id="audio_btn5">
+                                    <source src="./audio/严艺丹 - 等你的季节.mp3">
+                                    <p>Sorry,you browser doesn't support the audio element</p>
+                                </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="con4">
+                            <h3>刘涛 - 红颜旧</h3>
+                            <div class="con5" id="btn6" onclick="audiocontrol6()">
+                                <audio poster id="audio_btn6" >
+                                    <source src="./audio/刘涛 - 红颜旧.mp3">
+                                    <p>Sorry,you browser doesn't support the audio element</p>
+                                </audio>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer id="foot">
+        <ul class="col-metas" portletmode="simpleColumnAttri">
+            <li class="col-title"><h2>欢迎来到我的网站!!!</h2></li>
+            <li class="col-path">
+                <a href="./index.html" style="font-size:17px;" target="_self">首页</a>
+                <span class="possplit">&nbsp;</span>
+                <a href="./我的爱好.html" target="_self">我的爱好</a>
+                <span class="possplit">&nbsp;</span>
+                <a href="./大学生活.html" target="_self">大学生活</a>
+                <span class="possplit">&nbsp;</span>
+                <a href="./所获奖励.html" target="_self">所获奖励</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

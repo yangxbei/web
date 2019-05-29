@@ -1,0 +1,79 @@
+nav#naver .inner .nav2{
+    height: 580px;
+    margin-top: 10px;
+    background-color: #ddcbbd;
+}
+
+nav#naver .inner .nav2 .nav2-1{
+    margin: 15px 20px;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-1-1{
+    float: left;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-1-2{
+    width: 220px;
+    margin: 15px;
+    display: inline-block;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-1-2 h2{
+    color: rgb(124, 133, 132);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    padding: 10px 21px;
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-1-2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(90, 114, 111);
+    text-indent: 2em;
+    line-height: 24px;
+    font-size: 15px;
+    text-align: left;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-1-3{
+    margin-left: 10px;
+    float: right;
+}
+nav#naver .inner .nav2 .nav2-3{
+    margin: 5px 15px;
+}
+nav#naver .inner .nav2 .nav2-3 div{
+    display: inline;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-2-1{
+    float: left;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-2-2{
+    display: inline-block;
+}
+nav#naver .inner .nav2 .nav2-1 .nav2-2-3{
+    float: right;
+}
+nav#naver .inner .nav3{
+    width: 100%;
+    background-color: rgb(195, 203, 204);
+    background: url(../images/5000002195.jpg);
+}
+nav#naver .inner .nav3 td{
+    color: aliceblue;
+    padding: 5px;
+}
+nav#naver .inner .nav3 td h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin: 0px 10px;
+    line-height: 40px;
+    text-align: center;
+}
+nav#naver .inner .nav3 td p{
+    text-indent: 2em;
+    margin: 15px;
+}
+nav#naver .inner .nav3 td img{
+    margin: 10px;
+}
+nav#naver .inner .nav3 table{
+    padding-top: 14px;
+    border-spacing: 0;
+}
